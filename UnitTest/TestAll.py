@@ -38,21 +38,20 @@ class testAll(unittest.TestCase):
         实测邮箱是否可用
         :return:
         """
-        sendEmail("订票小助手测试一下")
+        sendEmail(u"订票小助手测试一下")
   
     def testPushbear(self):
         """
         实测pushbear是否可用
         :return:
         """
-        sendPushBear("pushbear 微信通知测试一下")
+        sendPushBear(u"pushbear 微信通知测试一下")
 
     # def testConfig(self):
     #     """
     #     测试config是否配置正确
     #     :return:
     #     """
-
 
 if __name__ == '__main__':
     unittest.main()
